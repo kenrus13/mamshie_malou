@@ -52,6 +52,17 @@
             </Fittings>
             <OverriddenIds />
           </ConnectionBlock>
+          <ConnectionBlock>
+            <DisplayName Value="Properties" />
+            <ConnectableUniqueId Value="Automator-8D53FEC974B0699\ConnectableProperties-8D5409A5516785B" />
+            <PartID Value="4" />
+            <Left Value="600" />
+            <Top Value="360" />
+            <Collapsed Value="False" />
+            <WillExecute Value="False" />
+            <InstanceName Value="variable3" />
+            <OverriddenIds />
+          </ConnectionBlock>
         </Objects>
         <Links />
         <Comments />
@@ -139,6 +150,37 @@
       <ExceptionsHandled Value="False" />
       <InstanceTypeName Value="OpenSpan.Automation.ConnectableVariable" />
       <InstanceUniqueId Value="Automator-8D53FEC974B0699\ConnectableVariable-8D5400E133D345C" />
+      <MemberDetails Value=".Value Property" />
+      <Content Name="MemberPrototypes">
+        <Items>
+          <OpenSpan.Automation.MemberPrototype>
+            <MemberName Value="Value" />
+            <MemberType Value="Property" />
+          </OpenSpan.Automation.MemberPrototype>
+        </Items>
+      </Content>
+    </OpenSpan.Automation.ConnectableProperties>
+    <OpenSpan.Automation.ConnectableVariable Name="variable3" Id="ConnectableVariable-8D5409A550CF314">
+      <ExceptionsHandled Value="False" />
+      <InstanceTypeName Value="" />
+      <InstanceUniqueId Value="EMPTY" />
+      <MemberDetails Value=".Value" />
+      <Scope Value="Local" Extended="True" />
+      <ValueText Value="" />
+      <VariableTypeName Value="System.Double" />
+      <Content Name="DynamicMembers">
+        <Items>
+          <OpenSpan.DynamicMembers.DynamicPropertyInfo dynamicType="Property" name="Value" canRead="True" canWrite="True" type="System.Double" aliasName="Value" shouldSerialize="False" visibility="DefaultOn" source="" blockTypeName="" />
+        </Items>
+      </Content>
+    </OpenSpan.Automation.ConnectableVariable>
+    <OpenSpan.Automation.ConnectableProperties Name="connectableProperties3" Id="ConnectableProperties-8D5409A5516785B">
+      <ComponentName Value="variable3" />
+      <DefaultValues Value="" />
+      <DisplayName Value="Properties" />
+      <ExceptionsHandled Value="False" />
+      <InstanceTypeName Value="OpenSpan.Automation.ConnectableVariable" />
+      <InstanceUniqueId Value="Automator-8D53FEC974B0699\ConnectableVariable-8D5409A550CF314" />
       <MemberDetails Value=".Value Property" />
       <Content Name="MemberPrototypes">
         <Items>
